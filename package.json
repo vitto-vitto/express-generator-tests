@@ -1,0 +1,25 @@
+{
+  "name": "express-generator-tests",
+  "version": "1.0.0",
+  "description": "Project made to learn how to manipulate Express Generator with  EJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitto-vitto/express-generator-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitto-vitto/express-generator-tests/issues"
+  },
+  "homepage": "https://github.com/vitto-vitto/express-generator-tests#readme",
+  "dependencies": {
+    "express-generator": "^4.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
