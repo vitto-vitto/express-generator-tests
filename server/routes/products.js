@@ -1,7 +1,8 @@
 const express = require('express'),
   router = express.Router(),
-  userController = require('../controllers/products')
+  productsController = require('../controllers/products')
 
-  router.get('/', userController.index)
+  router.get('/', productsController.index)
+  router.get('/:nomeProduto', productsController.show)
 
   module.exports = router
